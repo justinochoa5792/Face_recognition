@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(89deg, #ff5edf 0%, #04c8de 100%);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.form {
+  width: 700px;
+  cursor: pointer;
+}
+
+.f3 {
+  display: flex;
+  justify-content: center;
+}
+
+.f1 {
+  display: flex;
+  justify-content: center;
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
